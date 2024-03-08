@@ -1,0 +1,126 @@
+.all{
+    border: 5px double rgb(46, 20, 177) ;
+    width:90%;
+    padding:10px;
+    margin: auto;  
+}
+.back{
+    text-align: center;
+    background-color:#FAF1E4;
+    padding:5px;
+    border:3px solid #C4317B;
+    border-radius: 50px;
+}
+.container{
+    border:2px dashed black;
+    margin:2px;
+    display:flex;
+    align-content:start;/* multilined content shifted to start*/
+    /* defaulty flex-direction is row*/
+    /*flex-direction: column;*/
+    /*flex-direction: row-reverse;*/
+}
+.box{
+    height: 100px;
+    width:100px;
+    border:2px solid black;
+    margin:5px;
+}
+#box1{
+    background-color: #FAA300;
+}
+#box2{
+    background-color:#124076 ;
+}
+#box3{
+    background-color:#FCDC2A ;
+}
+#box4{
+    background-color:#87A922;
+}
+
+#container-center{
+    background-color: beige;
+    border:2px dashed black;
+    margin:2px;
+    display:flex;
+    justify-content:center;
+}
+#container-start{
+    background-color: beige;
+    border:2px dashed black;
+    margin:2px;
+    display:flex;
+    justify-content:start;
+}
+#container-end{
+    background-color: beige;
+    border:2px dashed black;
+    margin:2px;
+    display:flex;
+    justify-content:end;
+}
+#container-spacearond{
+    background-color: beige;
+    border:2px dashed black;
+    margin:2px;
+    display:flex;
+    justify-content:space-around;
+}
+#container-between{
+    background-color: beige;
+    border:2px dashed black;
+    margin:2px;
+    display:flex;
+    justify-content:space-between;
+}
+#container-evenly{
+    background-color: beige;
+    border:2px dashed black;
+    margin:2px;
+    display:flex;
+    justify-content:space-evenly;
+}
+#container-flexstart{
+    background-color: beige;
+    border:2px dashed black;
+    margin:2px;
+    display:flex;
+    justify-content:flex-start;
+}
+
+.align-box{
+    height:500px;
+    background-color: beige;
+    border:2px dashed black;
+    margin:5px;
+    display:flex;
+    /*for align-items:strech; you need to remove height  */  
+}
+#align-start{ 
+    /*for horizontly and vertically centered element 
+    need to add justify-content:center; property*/
+    align-items: start;  
+}
+#align-center{  
+    align-items: center;  
+}
+#align-end{  
+    align-items: end;  
+}
+.align-box1{
+    background-color: beige;
+    border:2px dashed black;
+    margin:5px;
+    display:flex;
+    /*for align-items:strech; you need to remove height  */  
+}
+#align-stretch{  
+    align-items: stretch;  
+}
+
+footer{
+    background-color: #B0C5A4;
+    display: flex;
+    justify-content: center;
+}

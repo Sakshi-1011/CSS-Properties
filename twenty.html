@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="twenty.css"> 
+    <title>CSS Properties</title>
+</head>
+<body>
+    <main class="all">
+        <h2 class="back">CSS Properties</h2>
+        <p>The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).</p>
+        <p><b>Note:</b> The justify-content property can also be used on a grid container to align grid items in the inline direction. For pages in English, inline direction is left to right and block direction is downward.
+        </p>
+        
+<!--horizontall on web pages-->
+        <h2 class="back">justify-content:center;</h2>
+        <p>aligns the flex items at the center of the container</p>
+        <div id="container-center" class="container">
+            <div class="box" id="box1"></div>
+            <div class="box" id="box2"></div>
+            <div class="box" id="box3"></div>
+            <div class="box" id="box4"></div>
+        </div>
+        <h2 class="back">justify-content:start;</h2>
+        <p>The items are packed flush to each other toward
+             the start edge of the alignment container in the main axis.</p>
+        <div id="container-start" class="container">
+            <div class="box" id="box1"></div>
+            <div class="box" id="box2"></div>
+            <div class="box" id="box3"></div>
+            <div class="box" id="box4"></div>
+        </div>
+        <h2 class="back">justify-content:end;</h2>
+        <p>The items are packed flush to each other toward 
+            the end edge of the alignment container in the main axis.</p>
+        <div id="container-end" class="container">
+            <div class="box" id="box1"></div>
+            <div class="box" id="box2"></div>
+            <div class="box" id="box3"></div>
+            <div class="box" id="box4"></div>
+        </div>
+        <h2 class="back">justify-content:space-around;</h2>
+        <p>The items are evenly distributed within the alignment container along the main axis. The spacing between each pair of adjacent items is the same. The empty space before
+             the first and after the last item equals half of the space between each pair of adjacent items. </p>
+        <div id="container-spacearond" class="container">
+            <div class="box" id="box1"></div>
+            <div class="box" id="box2"></div>
+            <div class="box" id="box3"></div>
+            <div class="box" id="box4"></div>
+        </div>
+        <h2 class="back">justify-content:space-between;</h2>
+        <p>The items are evenly distributed within the alignment container along the main axis. The spacing between each pair of adjacent items is the same. The first item is flush with 
+            the main-start edge, and the last item is flush with the main-end edge.</p>
+        <div id="container-between" class="container">
+            <div class="box" id="box1"></div>
+            <div class="box" id="box2"></div>
+            <div class="box" id="box3"></div>
+            <div class="box" id="box4"></div>
+        </div>
+        <h2 class="back">justify-content:space-evenly;</h2>
+        <p>The items are evenly distributed within the alignment container along the main axis. The spacing between each pair of adjacent items, the main-start edge and the first item, 
+            and the main-end edge and the last item, are all exactly the same.</p>
+        <div id="container-evenly" class="container">
+            <div class="box" id="box1"></div>
+            <div class="box" id="box2"></div>
+            <div class="box" id="box3"></div>
+            <div class="box" id="box4"></div>
+        </div>
+        <h2 class="back">justify-content:flex-start;</h2>
+        <div id="container-flexstart" class="container">
+            <div class="box" id="box1"></div>
+            <div class="box" id="box2"></div>
+            <div class="box" id="box3"></div>
+            <div class="box" id="box4"></div>
+        </div>
+<!--vertically -->
+        <div>
+            <p>Use the align-items property to align the items vertically.</p>
+            <p>The align-items property specifies the default alignment for items inside a flexbox or grid container.</br>
+                In a flexbox container, the flexbox items are aligned on the
+                 cross axis, which is vertical by default (opposite of flex-direction).</p>
+            <h2 class="back">align-items:start;</h2>
+            <p>The items are packed flush to each other toward 
+                the start edge of the alignment container in the appropriate axis.</p>
+            <div id="align-start" class="align-box">
+                <div class="box" id="box1"></div>
+                <div class="box" id="box2"></div>
+                <div class="box" id="box3"></div>
+                <div class="box" id="box4"></div>
+            </div>
+
+            <h2 class="back">align-items:center;</h2>
+            <p>The flex items' margin boxes are centered within the line on the cross-axis. If the cross-size of an item is larger than the flex container, 
+                it will overflow equally in both directions.</p>
+            <div id="align-center" class="align-box">
+                <div class="box" id="box1"></div>
+                <div class="box" id="box2"></div>
+                <div class="box" id="box3"></div>
+                <div class="box" id="box4"></div>
+            </div>
+
+            <h2 class="back">align-items:end;</h2>
+            <p>The items are packed flush to each other toward the end edge of 
+                the alignment container in the appropriate axis.</p>
+            <div id="align-end" class="align-box">
+                <div class="box" id="box1"></div>
+                <div class="box" id="box2"></div>
+                <div class="box" id="box3"></div>
+                <div class="box" id="box4"></div>
+            </div>
+
+            <h2 class="back">align-items:stretch;</h2>
+            <p>If the items are smaller than the alignment container, auto-sized items will be equally enlarged to fill the container, 
+                respecting the items' width and height limits.</p>
+            <div id="align-stretch" class="align-box1">
+                <div class="box" id="box1"></div>
+                <div class="box" id="box2"></div>
+                <div class="box" id="box3"></div>
+                <div class="box" id="box4"></div>
+            </div>
+
+        </div>
+        <footer>
+            <p>A little progress each day adds upto big result</p>
+        </footer>
+
+<!--<p>order property,flex-shrink,flex-grow,flex-basis,align-self</p>-->
+        
+
+
+
+    </main>
+
+    
+    
+</body>
+</html>
